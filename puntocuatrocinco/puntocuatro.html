@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pedidos Pizza</title>
+  </head>
+  <body>
+    <form action="puntocuatro.php" method="post">
+      <label for="nombre">Nombre: </label>
+      <input type="text" name="nombre" id="nombre" required />
+      <br />
+      <label for="direccion">Dirección: </label>
+      <input type="text" name="direccion" id="direccion" required />
+      <br />
+      <label for="jamonyqueso">Jamón y Queso: </label>
+      <input type="checkbox" name="jamonyqueso" id="jamonyqueso" />
+      <input type="number" name="cantidad1" placeholder="cantidad" />
+      <br />
+      <label for="napolitana">Napolitana: </label>
+      <input type="checkbox" name="napolitana" id="napolitana" />
+      <input type="number" name="cantidad2" placeholder="cantidad" />
+      <br />
+      <label for="muzzarella">Muzzarella: </label>
+      <input type="checkbox" name="muzzarella" id="muzzarella" />
+      <input type="number" name="cantidad3" placeholder="cantidad" />
+      <br />
+      <input type="submit" value="confirmar" />
+    </form>
+  </body>
+</html>

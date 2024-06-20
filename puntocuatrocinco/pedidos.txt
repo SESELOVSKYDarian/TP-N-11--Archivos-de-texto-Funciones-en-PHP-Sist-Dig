@@ -1,0 +1,5 @@
+Nombre: Pedro
+Dirección: Av Jb Justo 1354
+Quiere 3 de jamón y queso
+Quiere 4 de muzzarella
+--------------------------------------------------------

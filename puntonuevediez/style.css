@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  background-image: url("tecnica.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 60px 0;
+  text-align: center;
+  color: white;
+  box-sizing: border-box;
+}
+
+header .text h1 {
+  margin: 0;
+  font-size: 3.5em;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.ins {
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+}
+
+.ins h2 {
+  margin: 20px 0 0 0;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: inline-block;
+  color: #333333;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="number"]:focus,
+form input[type="date"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+form input[type="submit"] {
+  background: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background: #0056b3;
+}
+
+.mat_ins {
+  margin-top: 20px;
+}
+
+.mat_ins label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.mat_ins input[type="text"],
+.mat_ins input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.mat_ins input[type="text"]:focus,
+.mat_ins input[type="date"]:focus {
+  border-color: #007bff;
+  outline: none;
+}

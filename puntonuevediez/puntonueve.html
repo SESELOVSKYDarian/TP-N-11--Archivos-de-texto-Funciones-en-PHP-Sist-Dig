@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mesas de exámenes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="text">
+        <h1>MESAS DE EXÁMENES</h1>
+      </div>
+    </header>
+    <section class="inscripicion">
+      <div class="ins">
+        <h2>Inscripción</h2>
+      </div>
+      <div class="formulario">
+        <form action="puntonueve.php" method="post">
+          <label for="nombre">Nombres: </label>
+          <input type="text" name="nombre" id="nombre" required />
+          <br />
+          <label for="apellido">Apellidos: </label>
+          <input type="text" name="apellido" id="apellido" required />
+          <br />
+          <label for="dni">DNI: </label>
+          <input type="number" name="dni" id="dni" required />
+          <br />
+          <label for="fecha">Fecha de nacimiento: </label>
+          <input type="date" name="fecha" id="fecha" required />
+          <br />
+          <label for="curso">Curso actual: </label>
+          <input type="text" name="curso" id="curso" required />
+          <br />
+          <label for="mat_ad">Cantidad de materias adeudadas: </label>
+          <input type="number" name="mat_ad" id="mat_ad" required />
+          <br />
+          <div class="mat_ins">
+            <label for="ins">Materia a la que te inscribís</label>
+            <input type="text" name="ins" id="ins" required />
+            <br />
+            <label for="curso_ins">Curso de la materia</label>
+            <input type="text" name="curso_ins" id="curso_ins" required />
+            <br />
+            <label for="fecha_ins">Fecha en que te inscribís</label>
+            <input type="date" name="fecha_ins" id="fecha_ins" required />
+            <br />
+          </div>
+          <input type="submit" value="Confirmar" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

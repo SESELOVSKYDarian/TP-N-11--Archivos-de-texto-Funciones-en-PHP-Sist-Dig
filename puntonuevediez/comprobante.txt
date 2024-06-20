@@ -1,0 +1,7 @@
+Apellidos y nombres: Pedro Perez
+DNI: 323243554
+Fecha de nacimiento: 2008-02-01
+Curso actual: 5°3°
+Cantidad de materias adeudadas: 3
+El día 2024-05-27
+--------------------------------------------------------
